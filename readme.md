@@ -1,5 +1,5 @@
-#테이블 뷰 컨트롤러
-##TableViewController
+# 테이블 뷰 컨트롤러
+## TableViewController
 
 앱 시작 시 기본적으로 나타낼 목록
 
@@ -134,7 +134,7 @@ override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
 ```
 
 
-##AddViewController
+## AddViewController
 
 텍스트 필드 함수 지정
 
@@ -166,8 +166,11 @@ class AddViewController: UIViewController {
 ```
 
 
-##DetailViewConTroller
+## DetailViewConTroller
 
+Main View에서 변수를 받아오기 위한 함수
+
+```javascript
 
 
 
