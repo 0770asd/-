@@ -1,7 +1,7 @@
 # 테이블 뷰 컨트롤러
 ## TableViewController
 
-앱 시작 시 기본적으로 나타낼 목록
+### 앱 시작 시 기본적으로 나타낼 목록
 
 ```javascript
 import UIKit
@@ -25,7 +25,7 @@ class TableViewController: UITableViewController {
 ```
 
 
-뷰가 노출될 때마다 리스트의 데이터를 다시 불러옴
+### 뷰가 노출될 때마다 리스트의 데이터를 다시 불러옴
 
 ```javascript
 override func viewWillAppear(_ animated: Bool) {
@@ -34,7 +34,7 @@ override func viewWillAppear(_ animated: Bool) {
     ```
 
 
-테이블 안의 섹션 개수를 1로 설정함
+### 테이블 안의 섹션 개수를 1로 설정함
 
 ```javascript
 // MARK: - Table view data source
@@ -45,7 +45,7 @@ override func viewWillAppear(_ animated: Bool) {
     ```
 
 
-섹션당 열의 개수를 전달
+### 섹션당 열의 개수를 전달
 
 ```javascript
  override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -55,7 +55,7 @@ override func viewWillAppear(_ animated: Bool) {
 ```
 
 
-item와 itemslmageFile의 값을 셀에 삽입함
+### item와 itemslmageFile의 값을 셀에 삽입함
 
 ```javascript
 override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -69,7 +69,7 @@ override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexP
 ```
 
 
-목록 삭제 함수
+### 목록 삭제 함수
 
 ```javascript
  // Override to support editing the table view.
@@ -78,7 +78,7 @@ override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexP
 ```
 
 
-item와 itemslmageFile에 해당 리스트를 삭제함 
+### item와 itemslmageFile에 해당 리스트를 삭제함 
 
 ```javascript
 items.remove(at: (indexPath as NSIndexPath).row)
@@ -91,7 +91,7 @@ items.remove(at: (indexPath as NSIndexPath).row)
 ```
 
 
-삭제 시 "Delete" 대신 "삭제" 로 표시
+### 삭제 시 "Delete" 대신 "삭제" 로 표시
 
 ```javascript
 override func tableView(_ tableVeiw: UITableView, titleForDeleteConfirmationButtonForRowAt indexPath: IndexPath) -> String? {
@@ -100,7 +100,7 @@ override func tableView(_ tableVeiw: UITableView, titleForDeleteConfirmationButt
 ```
 
 
-목록 순서 바꾸기
+### 목록 순서 바꾸기
 
 ```javascript
  // Override to support rearranging the table view.
@@ -115,7 +115,7 @@ override func tableView(_ tableVeiw: UITableView, titleForDeleteConfirmationButt
 ```    
  
  
-세그웨이를 이용하여 디테일 뷰로 전환하기
+### 세그웨이를 이용하여 디테일 뷰로 전환하기
 
 ```javascript
 override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -136,7 +136,7 @@ override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
 
 ## AddViewController
 
-텍스트 필드 함수 지정
+### 텍스트 필드 함수 지정
 
 ```javascript
 mport UIKit
@@ -154,7 +154,7 @@ class AddViewController: UIViewController {
 ```    
 
 
-새 목록 추가하기
+### 새 목록 추가하기
 
 ```javascript
 @IBAction func btnAddItem(_ sender: UIButton) {
@@ -168,18 +168,17 @@ class AddViewController: UIViewController {
 
 ## DetailViewConTroller
 
-Main View에서 변수를 받아오기 위한 함수
+### Main View에서 변수를 받아오기 위한 함수
 
 ```javascript
+func receiveItem(_ item: String)
 
+    {
+        receiveItem = item
+    }
+```
 
-
-
-
-
-
-
-
+![lamp_off](https://user-images.githubusercontent.com/106363908/174153969-39e2e4df-b34b-4652-b247-e6011d9498de.png)
 
 
 
