@@ -134,6 +134,49 @@ override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
 ```
 
 
-    
+##AddViewController
+
+텍스트 필드 함수 지정
+
+```javascript
+mport UIKit
+
+class AddViewController: UIViewController {
+
+    @IBOutlet var tfAddItem: UITextField!
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+
+        // Do any additional setup after loading the view.
+
+    }
+```    
+
+
+새 목록 추가하기
+
+```javascript
+@IBAction func btnAddItem(_ sender: UIButton) {
+        items.append(tfAddItem.text!)
+        itemsImageFile.append("clock.jpeg")
+        tfAddItem.text=""
+        _ = navigationController?.popViewController(animated: true)
+    }
+```
+
+
+##DetailViewConTroller
+
+
+
+
+
+
+
+
+
+
+
 
 
