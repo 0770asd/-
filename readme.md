@@ -178,7 +178,14 @@ func receiveItem(_ item: String)
     }
 ```
 
-<img src="https://user-images.githubusercontent.com/106363908/174153969-39e2e4df-b34b-4652-b247-e6011d9498de.png" width="400" height="600">
+
+## 동작
+
+<img src="https://user-images.githubusercontent.com/106363908/174155724-718a8be2-4d80-4c0d-960f-7b8cfb93e763.png" width="400" height="600">
+
+<img src="https://user-images.githubusercontent.com/106363908/174155779-6695337d-1d72-4aba-91a2-7dcbeaf4d88b.png" width="400" height="600">
+
+<img src="https://user-images.githubusercontent.com/106363908/174155863-0f9f67ae-2957-4083-aa6c-dc16af5df098.png" width="400" height="600">
 
 
 
