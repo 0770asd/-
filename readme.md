@@ -178,7 +178,7 @@ func receiveItem(_ item: String)
     }
 ```
 
-![lamp_off](https://user-images.githubusercontent.com/106363908/174153969-39e2e4df-b34b-4652-b247-e6011d9498de.png) {: width="400" height="400"}
+![lamp_off]<(https://user-images.githubusercontent.com/106363908/174153969-39e2e4df-b34b-4652-b247-e6011d9498de.png) {: width="400" height="400"}>
 
 
 
